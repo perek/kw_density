@@ -15,15 +15,19 @@ Will output binary *kwd* into ./bin
 
 Usage
 ====================
-```$ ./kwd.sh -h
+```
+$ ./kwd.sh -h
 Usage of ./bin/kwd:
   -f string
         comma separated list containing text documents
   -w string
-        comma separated list containing the words to check keyword density```
+        comma separated list containing the words to check keyword density
+```
 
 Sample:
-```$ ./kwd.sh -f data/chapter1.txt,data/chapter2.txt,data/chapter3.txt,data/chapter4.txt,data/chapter5.txt -w queequeg,whale,sea
+```
+$ ./kwd.sh -f data/chapter1.txt,data/chapter2.txt,data/chapter3.txt,data/chapter4.txt,data/chapter5.txt -w queequeg,whale,sea
 WORD: queequeg  FILE: data/chapter4.txt SCORE: 0.006634
 WORD: whale     FILE: data/chapter1.txt SCORE: 0.001354
-WORD: sea       FILE: data/chapter1.txt SCORE: 0.004515```
+WORD: sea       FILE: data/chapter1.txt SCORE: 0.004515
+```
